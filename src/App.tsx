@@ -2,7 +2,7 @@ import { MessageCircle } from 'lucide-react';
 
 function App() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '6285176999928';
+    const phoneNumber = '628132004140';
     const message = encodeURIComponent('Hallo, CS ADAKAMI');
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
