@@ -1,4 +1,5 @@
 import { MessageCircle } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   const handleWhatsAppClick = () => {
@@ -47,6 +48,7 @@ function App() {
           © 2025 Adakami. Seluruh hak cipta dilindungi undang-undang.
         </footer>
       </div>
+      <SpeedInsights />
     </div>
   );
 }
